@@ -1,0 +1,55 @@
+.app {
+    position: relative;
+  }
+  
+  select {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .arrow-icons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .arrow-icon {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .Gender_c{
+    padding: 8px 12px; 
+    border: 2px solid #fc6a9c;
+    border-radius: 5px; 
+    font-family: 'Arial', sans-serif;
+    font-size: 14px; 
+    color: #666; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); 
+    -webkit-appearance: none; 
+    -moz-appearance: none;
+    appearance: none; 
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+  }
+  
+ .Gender_o,.Theme_o {
+    margin-top: 30px;
+    font-family: 'Arial', sans-serif; 
+    font-size: 14px; 
+    color: #666; 
+  }
+  
+  .Gender_o,.Theme_o:hover {
+    background-color: #f0f0f0; 
+  }
+  

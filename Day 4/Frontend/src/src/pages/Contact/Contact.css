@@ -1,0 +1,38 @@
+.contact-us-container {
+  display: flex;
+  /* background-color: #FF69B4; */
+}
+
+.image-section {
+  flex: 1;
+}
+
+.form-section {
+  flex: 2;
+  padding: 20px;
+}
+
+.form-row {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+button.submit-button {
+  background-color: #FF69B4;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}

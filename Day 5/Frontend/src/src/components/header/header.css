@@ -1,0 +1,41 @@
+.background {
+  position: relative;
+  width: 100%;
+}
+
+.background img {
+  width: 100%;
+  height: auto;
+}
+
+.nav {
+  position: absolute;
+  top: 20px; /* Adjust as needed */
+  left: 20px; /* Adjust as needed */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1; /* Ensure navbar is above the background image */
+  width: calc(100% - 40px); /* Subtract padding from left and right */
+  padding: 10px 0;
+  font-size: medium;
+  color: white;
+}
+
+.nav-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  
+}
+
+.nav-menu li {
+  margin-right: 20px;
+  cursor: pointer;
+  transition: color 0.3s; /* Smooth transition for color change */
+}
+
+.nav-menu li:hover {
+  color: pink; /* Change text color to pink on hover */
+}

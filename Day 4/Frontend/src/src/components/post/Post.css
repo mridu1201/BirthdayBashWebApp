@@ -1,0 +1,9 @@
+.wrapper_post {
+    display: flex;
+    justify-content: space-between; 
+  }
+  
+  .post_item {
+    flex: 1;
+    margin: 0 10px; 
+  }
