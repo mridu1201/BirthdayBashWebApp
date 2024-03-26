@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+
+
+
+.testimony-heading {
+  font-family: 'Sacramento', cursive;
+  font-weight: bold;
+  margin-top: 0%;
+  font-size: 80px ;
+  text-align: center;
+  color: rgb(188, 115, 197);
+  margin-bottom: 50px;
+  background: linear-gradient(to right,  #c98fb3, rgb(163, 48, 157), #18011b); /* Gradient from dark purple to purple */
+  -webkit-background-clip: text; /* Apply gradient to text */
+  -webkit-text-fill-color: transparent;
+}
+
+.testimony-slide {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.testimony-card {
+  width: 30%;
+  text-align: center;
+}
+
+.testimony-card img {
+  width: 200px;
+  height: 250px;
+  border-radius: 50%;
+  margin-bottom: 70px;
+}
+
+.testimony-content {
+  font-family: 'Moon Dance', cursive;
+  font-style: oblique;
+  color: rgb(24, 4, 34);
+  font-size: 30px;
+  margin-top: -5%;
+}
+
+.testimon-name {
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  font-size: 28px;
+  margin-top: 5px;
+}

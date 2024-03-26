@@ -1,0 +1,60 @@
+.user-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align items in the center horizontally */
+    justify-content: center; /* Align items in the center vertically */
+    height: 100vh; /* Take up the full height of the viewport */
+    padding-top : 50px; 
+    padding-bottom : 50px; 
+    padding-left: 180%; /* Add left padding */
+  padding-right: 180%; 
+  background-color: #fff;
+}
+  
+  .profile {
+    margin-bottom: 20px;
+  }
+  
+  .user-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  .details {
+    display: flex;
+    flex-direction: row; /* Arrange the details horizontally */
+    gap: 20px; /* Add space between the details */
+  }
+  
+  .user-details {
+    display: flex;
+    flex-direction: column; /* Arrange the user details vertically */
+    gap: 20px; /* Add space between the user details */
+  }
+  
+  .user-input-container {
+    display: flex;
+    flex-direction: column;
+    color: black;
+  }
+  
+  .user-input-container label {
+    margin-bottom: 5px;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .edit-button,
+  .change-password-button {
+    padding: 10px 20px;
+    background-color: #a32d93;
+    color: #4e0d53;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }

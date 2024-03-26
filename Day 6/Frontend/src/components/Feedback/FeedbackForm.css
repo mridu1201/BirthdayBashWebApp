@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+.feedback-container {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: center;
+}
+
+.feedback-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  padding: 3rem;
+  margin-left: 230px;
+  margin-bottom: 5rem;
+  max-width: 50rem;
+  background-color: #ff69b4;
+  border-radius: 1rem;
+  box-shadow: 0 2px 10px -3px rgba(0, 0, 0, 0.3);
+}
+
+.feedback-title {
+  font-size: 5rem;
+  font-weight: bold;
+  font-family: 'Sacramento', cursive;
+  background: linear-gradient(to right, #da45a0, rgb(163, 48, 157), #18011b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.feedback-description {
+  font-size: 1rem;
+  margin-top: -2rem;
+  color: black;
+}
+
+.feedback-social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.feedback-social-icons a {
+  color: black;
+  font-size: 2rem;
+}
+
+.feedback-social-icons a i {
+  transition: color 0.3s ease;
+}
+
+.feedback-social-icons a:hover i {
+  color: #333;
+}
+
+.feedback-input-group {
+  margin-top: 1.5rem;
+}
+
+.feedback-input-group input,
+.feedback-input-group textarea {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid black;
+  font-size: 0.875rem;
+  outline-color: pink;
+  margin-bottom: 1rem;
+}
+
+.feedback-input-group button {
+  width: 20%;
+  height: 14%;
+  padding: 0.5rem;
+  border: none;
+  margin-left: 12rem;
+  border-radius: 0.5rem;
+  background-color: black;
+  color: pink;
+  font-size: 1.3rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.feedback-input-group button:hover {
+  background-color: #333;
+}

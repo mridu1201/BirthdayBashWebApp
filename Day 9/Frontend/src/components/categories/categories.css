@@ -1,0 +1,51 @@
+.mycard-grid
+{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.mycard {
+    position: relative;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .mycard-image {
+    width: 330px; /* Adjust image width as needed */
+    height: auto;
+    height: 330px; /* Maintain aspect ratio */
+    transition: filter 0.3s; /* Add transition for smooth effect */
+  }
+  
+  .mycard:hover .mycard-image {
+    filter: brightness(80%); /* Apply a brightness filter on hover */
+  }
+  
+  .mycard-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* Hide the content initially */
+    transition: opacity 0.3s;
+  }
+  
+  .mycard:hover .mycard-content {
+    opacity: 1; /* Show the content on hover */
+  }
+  
+  .mycard-button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #ff69b4; /* Pink color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
